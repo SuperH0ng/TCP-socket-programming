@@ -1,0 +1,22 @@
+{
+	"Chan_Jin": {
+		"student_number": "20181692",
+		"grade": "3.5",
+		"department": "software"
+	},
+	"Da_Eun": {
+		"student_number": "20203112",
+		"grade": "4.2",
+		"department": "software"
+	},
+	"Seung_Hyun": {
+		"student_number": "20213100",
+		"grade": "4.5",
+		"department": "software"
+	},
+	"Ji_Won": {
+		"student_number": "20213091",
+		"grade": "4.0",
+		"department": "software"
+	}
+}
