@@ -349,20 +349,28 @@ def deleteRequest(cs, file) :
 ```
 
 *	 tcpserver.py와 tcoclient.py를 각각 실행
- 
+
+
+![image](https://user-images.githubusercontent.com/81635179/168081383-57f0ba31-6988-4ef4-a35a-8d743c1916e4.png)
 
 1.	GET 요청이 올바른 경우
- 
+
+![image](https://user-images.githubusercontent.com/81635179/168081409-73270f1f-b450-4b25-8589-c9d54bebff48.png)
 
 2.	GET 요청을 하였지만 찾을 수 없는 파일을 요청하였을 경우
- 
+
+![image](https://user-images.githubusercontent.com/81635179/168081425-b71c731b-4b9e-49ef-a42d-897be9d9416b.png)
 
 3.	POST 요청을 하였을 경우
- 
+
+![image](https://user-images.githubusercontent.com/81635179/168081442-14f0deba-0a09-4de3-9873-ea609c4ee607.png)
+
 HTTP 응답 상태 코드 300과 “Multiple Choices” Response를 client에 보냄
 client에서 post할 값을 입력하여 주면 post가 되고
 HTTP 응답 상태 코드 201과 “Created” Response”를 client에 보냄
- 
+
+![image](https://user-images.githubusercontent.com/81635179/168081451-361311a6-7520-4921-ba88-b286e96e6042.png)
+
 students.json 파일에 데이터가 생성됨
 
 ```json
@@ -395,8 +403,9 @@ HTTP 응답 상태 코드 300과 “Multiple Choices” Response를 client에 �
 client에서 put할 값을 입력하여 주면 update가 되고
 HTTP 응답 상태 코드 200과 “OK”를 client에 보냄
 
- 
-	students.json 파일의 Seung_Hyun의 데이터가 update됨
+![image](https://user-images.githubusercontent.com/81635179/168081464-5c9ce85b-7dfb-4ff2-b9ea-6b288cf665c7.png)
+
+students.json 파일의 Seung_Hyun의 데이터가 update됨
 
 ```json
 {
@@ -424,17 +433,22 @@ HTTP 응답 상태 코드 200과 “OK”를 client에 보냄
 ```
 
 5.	잘못된 요청을 받았을 경우
- 
+
+![image](https://user-images.githubusercontent.com/81635179/168081484-d3ab637e-e056-4aed-a292-0a91e26ab140.png)
+
 
 6.	HEAD 요청을 받았을 경우
  
+![image](https://user-images.githubusercontent.com/81635179/168081495-626ac9dc-91a5-474b-b799-c0a5349403c7.png)
 
 7.	DELETE 요청을 받았을 경우
 HTTP 응답 상태 코드 300과 “Multiple Choices” Response를 client에 보냄
 client에서 delete할 값을 입력하여 주면 해당 데이터가 삭제되고
 HTTP 응답 상태 코드 200과 “OK”를 client에 보냄
- 
-	students.json 파일의 So_Jeong 데이터가 삭제됨
+
+![image](https://user-images.githubusercontent.com/81635179/168081499-918702dd-f52c-4c03-8d6e-8613e9cf76a7.png)
+
+students.json 파일의 So_Jeong 데이터가 삭제됨
 
 ```json
 {
@@ -458,3 +472,4 @@ HTTP 응답 상태 코드 200과 “OK”를 client에 보냄
 
 3.	WireShark로 캡쳐한 HTTP 명령어 수행 결과
  
+![image](https://user-images.githubusercontent.com/81635179/168081518-981dbab5-1545-49b9-936e-5036fb088492.png)
